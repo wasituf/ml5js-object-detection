@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-  const canvas = createCanvas(440, 640)
+  const canvas = createCanvas(640, 1000)
   canvas.parent('canvas-container')
   video.size(width, height)
   video.hide()
